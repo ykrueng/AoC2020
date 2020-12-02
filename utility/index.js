@@ -13,7 +13,7 @@ exports.getInputString = (relPath) => {
   return inputStr;
 };
 
-exports.getInputArray = (relPath, separator = "\n", type = "integer") => {
+exports.getInputArray = (relPath, type = "integer", separator = "\n") => {
   // read the input file
   const inputStr = this.getInputString(relPath);
   // convert input string into array

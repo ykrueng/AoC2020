@@ -1,14 +1,19 @@
 const prompts = require("prompts");
 
 const { day01part1, day01part2 } = require("./01");
+const { day02part1 } = require("./02");
 const AoC2020 = {
   "0101": {
     func: day01part1,
-    answer: 988771
+    answer: 988771,
   },
   "0102": {
     func: day01part2,
-    answer: 988771
+    answer: 988771,
+  },
+  "0201": {
+    func: day02part1,
+    answer: 500,
   },
 };
 
@@ -39,12 +44,11 @@ function main() {
   console.log(`==============================`);
   console.log(``);
 
-  getUserInput().then(input => {
+  getUserInput().then((input) => {
     const task = AoC2020[input];
-    console.log(`Expected: ${task.answer}`); 
+    console.log(`Expected: ${task.answer}`);
     console.table(`Received: ${task.func()}`);
-  })
-
+  });
 }
 
 main();
