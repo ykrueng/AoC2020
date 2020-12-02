@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test:watch": "jest --watch",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "author": "YK",
   "license": "ISC",
