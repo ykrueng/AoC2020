@@ -23,3 +23,5 @@ exports.getInputArray = (relPath, separator = "\n", type = "integer") => {
     ? inputArr
     : inputArr.map((input) => conversionMap.get(type)(input));
 };
+
+exports.YEAR = 2020;
