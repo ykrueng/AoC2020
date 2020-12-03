@@ -1,5 +1,5 @@
-const { AoC2020 } = require("./utility/helper");
-const { getUserInput } = require("./utility");
+const { AoC2020 } = require("./src/utility/helper");
+const { getUserInput } = require("./src/utility");
 
 function main() {
   console.log(`Welcome to Advent of Code 2020`);
