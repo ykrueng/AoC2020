@@ -49,7 +49,7 @@ exports.AoC2020 = {
   },
   "0301": {
     func: day03part1,
-    answer: null,
+    answer: 173,
   },
   "0302": {
     func: day03part2,
