@@ -1,4 +1,4 @@
-exports.getTreeCount = (inputArr) => {
+exports.getTreeCount = (inputArr, right = 3, down = 1) => {
   if (!inputArr || !inputArr.length) return 0;
 
   const columnCount = inputArr[0].length;
@@ -9,8 +9,8 @@ exports.getTreeCount = (inputArr) => {
   let treeCount = 0;
 
   while (currentRow < rowCount - 1) {
-    currentColumn = (currentColumn + 3) % columnCount;
-    currentRow++;
+    currentColumn = (currentColumn + right) % columnCount;
+    currentRow += down;
 
     if (inputArr[currentRow][currentColumn] === "#") treeCount++;
   }

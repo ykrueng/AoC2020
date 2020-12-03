@@ -53,7 +53,7 @@ exports.AoC2020 = {
   },
   "0302": {
     func: day03part2,
-    answer: null,
+    answer: 4385176320,
   },
   "0401": {
     func: day04part1,
@@ -103,179 +103,179 @@ exports.AoC2020 = {
     func: day09part2,
     answer: null,
   },
-  "1001": {
+  1001: {
     func: day10part1,
     answer: null,
   },
-  "1002": {
+  1002: {
     func: day10part2,
     answer: null,
   },
-  "1101": {
+  1101: {
     func: day11part1,
     answer: null,
   },
-  "1102": {
+  1102: {
     func: day11part2,
     answer: null,
   },
-  "1201": {
+  1201: {
     func: day12part1,
     answer: null,
   },
-  "1202": {
+  1202: {
     func: day12part2,
     answer: null,
   },
-  "1301": {
+  1301: {
     func: day13part1,
     answer: null,
   },
-  "1302": {
+  1302: {
     func: day13part2,
     answer: null,
   },
-  "1401": {
+  1401: {
     func: day14part1,
     answer: null,
   },
-  "1402": {
+  1402: {
     func: day14part2,
     answer: null,
   },
-  "1501": {
+  1501: {
     func: day15part1,
     answer: null,
   },
-  "1502": {
+  1502: {
     func: day15part2,
     answer: null,
   },
-  "1601": {
+  1601: {
     func: day16part1,
     answer: null,
   },
-  "1602": {
+  1602: {
     func: day16part2,
     answer: null,
   },
-  "1701": {
+  1701: {
     func: day17part1,
     answer: null,
   },
-  "1702": {
+  1702: {
     func: day17part2,
     answer: null,
   },
-  "1801": {
+  1801: {
     func: day18part1,
     answer: null,
   },
-  "1802": {
+  1802: {
     func: day18part2,
     answer: null,
   },
-  "1901": {
+  1901: {
     func: day19part1,
     answer: null,
   },
-  "1902": {
+  1902: {
     func: day19part2,
     answer: null,
   },
-  "2001": {
+  2001: {
     func: day20part1,
     answer: null,
   },
-  "2002": {
+  2002: {
     func: day20part2,
     answer: null,
   },
-  "2101": {
+  2101: {
     func: day21part1,
     answer: null,
   },
-  "2102": {
+  2102: {
     func: day21part2,
     answer: null,
   },
-  "2201": {
+  2201: {
     func: day22part1,
     answer: null,
   },
-  "2202": {
+  2202: {
     func: day22part2,
     answer: null,
   },
-  "2301": {
+  2301: {
     func: day23part1,
     answer: null,
   },
-  "2302": {
+  2302: {
     func: day23part2,
     answer: null,
   },
-  "2401": {
+  2401: {
     func: day24part1,
     answer: null,
   },
-  "2402": {
+  2402: {
     func: day24part2,
     answer: null,
   },
-  "2501": {
+  2501: {
     func: day25part1,
     answer: null,
   },
-  "2502": {
+  2502: {
     func: day25part2,
     answer: null,
   },
-  "2601": {
+  2601: {
     func: day26part1,
     answer: null,
   },
-  "2602": {
+  2602: {
     func: day26part2,
     answer: null,
   },
-  "2701": {
+  2701: {
     func: day27part1,
     answer: null,
   },
-  "2702": {
+  2702: {
     func: day27part2,
     answer: null,
   },
-  "2801": {
+  2801: {
     func: day28part1,
     answer: null,
   },
-  "2802": {
+  2802: {
     func: day28part2,
     answer: null,
   },
-  "2901": {
+  2901: {
     func: day29part1,
     answer: null,
   },
-  "2902": {
+  2902: {
     func: day29part2,
     answer: null,
   },
-  "3001": {
+  3001: {
     func: day30part1,
     answer: null,
   },
-  "3002": {
+  3002: {
     func: day30part2,
     answer: null,
   },
-  "3101": {
+  3101: {
     func: day31part1,
     answer: null,
   },
-  "3102": {
+  3102: {
     func: day31part2,
     answer: null,
   },
