@@ -1,7 +1,7 @@
 const prompts = require("prompts");
 
 const { day01part1, day01part2 } = require("./01");
-const { day02part1 } = require("./02");
+const { day02part1, day02part2 } = require("./02");
 const AoC2020 = {
   "0101": {
     func: day01part1,
@@ -14,6 +14,10 @@ const AoC2020 = {
   "0201": {
     func: day02part1,
     answer: 500,
+  },
+  "0202": {
+    func: day02part2,
+    answer: 313,
   },
 };
 

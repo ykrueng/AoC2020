@@ -11,18 +11,18 @@ function processInput(string) {
   };
 }
 
-function validatePassword({lo, hi, char, password}) {
+function validatePassword({ lo, hi, char, password }) {
   let occurance = 0;
 
   for (let passwordChar of password) {
     if (passwordChar === char) {
       occurance++;
     }
-    if (occurance > hi) return false
+    if (occurance > hi) return false;
   }
 
-  if (occurance < lo) return false
-  return true
+  if (occurance < lo) return false;
+  return true;
 }
 
 exports.getValidPasswordCount = (inputArr) => {
@@ -37,3 +37,5 @@ exports.getValidPasswordCount = (inputArr) => {
 
   return validPasswordCount;
 };
+
+exports.processInput = processInput;
