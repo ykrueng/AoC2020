@@ -1,8 +1,8 @@
 const { getInputArray } = require("../utility");
+const { getValidPassportCount } = require("./task1");
+const { getValidPassportCount2 } = require("./task2");
 
-const inputArr = getInputArray("04/input.txt");
+const inputArr = getInputArray("04/input.txt", "string", "\n\n");
 
-const notAvailable = () => 'Not yet available'
-
-exports.day04part1 = () => notAvailable(inputArr);
-exports.day04part2 = () => notAvailable(inputArr);
+exports.day04part1 = () => getValidPassportCount(inputArr);
+exports.day04part2 = () => getValidPassportCount2(inputArr);
