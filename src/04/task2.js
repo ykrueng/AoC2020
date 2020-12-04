@@ -25,15 +25,15 @@ const validationMap = {
   iyr: validateNumbers(2010, 2020),
   eyr: validateNumbers(2020, 2030),
   hgt: (value) =>
-    value.endsWith("cm")
+    value?.endsWith("cm")
       ? validateNumbers(150, 193)(value)
-      : value.endsWith("in")
+      : value?.endsWith("in")
       ? validateNumbers(59, 76)(value)
       : false,
-  hcl: (value) => Boolean(value.match(/^#[0-9a-f]{6}/)),
+  hcl: (value) => Boolean(value?.match(/^#[0-9a-f]{6}/)),
   ecl: (value) =>
     ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"].includes(value),
-  pid: (value) => Boolean(value.match(/^\d{9}$/)),
+  pid: (value) => Boolean(value?.match(/^\d{9}$/)),
 };
 
 exports.validationMap = validationMap;

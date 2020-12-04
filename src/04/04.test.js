@@ -5,6 +5,7 @@ const { getValidPassportCount2, validationMap } = require("./task2");
 const testInput = getInputArray("04/test.txt", "string", "\n\n");
 const validPassports = getInputArray("04/valid.txt", "string", "\n\n");
 const invalidPassports = getInputArray("04/invalid.txt", "string", "\n\n");
+const inputArr = getInputArray("04/input.txt", "string", "\n\n");
 
 const validFields = [
   ["byr:2002", true],
@@ -25,16 +26,18 @@ const validFields = [
 describe("Day 1 tasks:", () => {
   test("method to count for valid passports", () => {
     expect(getValidPassportCount(testInput)).toEqual(2);
+    expect(getValidPassportCount(inputArr)).toEqual(200);
   });
   test("validation map", () => {
     for (let field of validFields) {
-      const [k, v] = field[0].split(':');
+      const [k, v] = field[0].split(":");
       const isValid = validationMap[k](v);
-      expect(isValid).toEqual(field[1])
+      expect(isValid).toEqual(field[1]);
     }
-  })
+  });
   test("method to count for valid passports with validation", () => {
     expect(getValidPassportCount2(validPassports)).toEqual(4);
     expect(getValidPassportCount2(invalidPassports)).toEqual(0);
+    expect(getValidPassportCount2(inputArr)).toEqual(116);
   });
 });
